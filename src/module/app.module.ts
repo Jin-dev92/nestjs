@@ -1,4 +1,5 @@
 import { Module } from "@nestjs/common";
+
 import { AppController } from "../controller";
 import { AppService } from "../service";
 
@@ -8,6 +9,5 @@ import { AppService } from "../service";
   providers: [AppService],
 })
 export class AppModule {
-  constructor() {
-  }
+  constructor() {}
 }
